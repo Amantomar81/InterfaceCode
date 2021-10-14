@@ -33,6 +33,7 @@ requestBook function:
 if bookType is “Fiction”, a message displaying “Book Issued successfully, please return the book within 7 days” should be displayed in the console.
 Else, a message displaying, “Oops, you are allowed to take only adult Fiction books” should be displayed in the console.
 6. Create a class “LibraryInterfaceDemo.java” with a main method which performs the below functions,
+
 Test case #1:
 Create an instance of KidUser class.
 Set the age as specified in the below table and invoke the registerAccount method  of the  KidUser object
@@ -43,6 +44,7 @@ Set the book Type as specified in the below table and invoke the requestBook met
 BookType
 “Kids”
 “Fiction”
+
 Test case #2:
 Create an instance of AdultUser class.
 Set the age as specified in the below table and invoke the registerAccount method of the AdultUser object
