@@ -60,15 +60,12 @@ BookType
 
 
 import java.util.Scanner;
-
  interface Library {
-
-    public void Account();
+  public void Account();
     public void Book();
 }
  class KidUsers implements Library
-{
-    int Age;
+{ int Age;
     String BookType;
     //constructor
     public KidUsers()
